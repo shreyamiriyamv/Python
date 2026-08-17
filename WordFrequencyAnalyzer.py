@@ -26,7 +26,6 @@ sorted_words = sorted(word_counts.items(),
                       key=lambda item: item[1], reverse=True)
 top_10 = sorted_words[:10]
 
-# Display the results
 print("Top 10 most frequent words:")
 for word, count in top_10:
     print(f"{word} -> {count}")
