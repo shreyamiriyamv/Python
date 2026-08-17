@@ -1,8 +1,7 @@
 import math
 
-
 number = float(input("Input: "))
-print("Output: Armstrong Number")
+
 sum = 0
 temp = number
 if number == 0:
@@ -16,4 +15,4 @@ while temp > 0:
 if sum == number:
     print("Output: Armstrong Number")
 else:
-    print("Output: Not anArmstrong Number")
+    print("Output: Not an Armstrong Number")
