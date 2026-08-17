@@ -1,0 +1,8 @@
+inputs = input().split()
+marks = dict(zip(inputs[0::2], map(int, inputs[1::2])))
+print(marks)
+print(f"Average =  {sum(marks.values()) / len(marks):.2f}", end="   ")
+print("Highest = ", max(marks, key=marks.get), end="   ")
+print("Lowest = ", min(marks, key=marks.get), end="   ")
+print("Passed = ", sum(1 for mark in marks.values() if mark >= 40), end="    ")
+print("Failed = ", sum(1 for mark in marks.values() if mark < 40), end="   ")
