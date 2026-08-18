@@ -1,0 +1,3 @@
+Python can work with text files.
+Python supports many useful functions.
+Searching files is a common task.
