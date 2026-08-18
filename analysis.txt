@@ -1,0 +1,16 @@
+LOG FILE ANALYSIS
+---------------------------
+INFO messages    : 3
+WARNING messages : 2
+ERROR messages   : 5
+
+Most Frequent IP Address:
+192.168.1.10 - 3 times
+
+Errors by Type:
+File not found - 2
+Database connection failed - 2
+CRITICAL Disk failure - 1
+
+Critical Error Lines:
+192.168.1.30 ERROR CRITICAL Disk failure
